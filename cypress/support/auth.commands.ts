@@ -1,7 +1,6 @@
 export const auth = (user: string, password: string) => {
   cy.get('#mat-input-0').click().type(`${user}`);
-  cy.get('#mat-input-1').click().type(`${password}`);
-  cy.get('app-shared-button > .mat-focus-indicator').click();
+  cy.get('#mat-input-1').click().type(`${password}`).press('enter');
 }
 
 export const selectCovenant = () => {

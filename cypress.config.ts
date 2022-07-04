@@ -1,5 +1,4 @@
-import * as cypress from "cypress";
-import { defineConfig } from "cypress";
+import {defineConfig} from "cypress";
 
 export default defineConfig({
 
