@@ -1,0 +1,21 @@
+{
+  "access_token": "eyJhbGciOiJSUzI1111...",
+  "refresh_token": "eyJhbGciOiJIUzI1Ni...",
+  "user": {
+    "name": "rgarcia"
+  },
+  "covenants": [
+    {
+      "code": 123,
+      "description": "Copel RS"
+    },
+    {
+      "code": 453,
+      "description": "Copel SC"
+    },
+    {
+      "code": 500,
+      "description": "Copel PR"
+    }
+  ]
+}
